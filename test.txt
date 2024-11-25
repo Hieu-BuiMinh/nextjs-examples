@@ -1,0 +1,22 @@
+1. npm install -D tailwindcss postcss autoprefixer eslint prettier eslint-config-prettier eslint-plugin-prettier @typescript-eslint/eslint-plugin @typescript-eslint/parser eslint-plugin-tailwindcss eslint-plugin-react eslint-plugin-import eslint-plugin-simple-import-sort
+2. npm install --save-dev husky
+
+3. Git convention:
+<emoji> <type>(<scope>): <subject>
+<body> (optional)
+//=============================================
+✨ feat(auth): add user login flow
+🐛 fix(api): resolve 500 error on user registration
+📝 docs(README): update contributing guidelines
+⭐ refactor(api): simplify error handling in user controller
+🔥 chore: remove deprecated files
+//=============================================
+Common Emojis:
+✨ feat: A new feature.
+🐛 fix: A bug fix.
+📝 docs: Documentation changes.
+🛠 refactor: Code refactoring.
+⭐ Performance improvement.
+🔥 Removing code or files.
+✅ test: Adding or updating tests.
+🔧 build: Build system or external dependencies.
